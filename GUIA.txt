@@ -1,0 +1,13 @@
+- Debes agregar el hardware-configuration que está en ( /etc/nixos/hardware-configuration.nix ) en ./system-modules/
+
+- El otro documento que está al lado de hardware-configuration da igual.
+
+- Debes cambiar los datos en ./lib/const.nix a los tuyos
+
+- Se rebuildea con el comando:
+sudo nixos-rebuild switch --flake .#gus
+
+- Se actualizan las apps con:
+(estando en esta carpeta)
+nix flake update
+
