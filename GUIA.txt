@@ -1,3 +1,7 @@
+- Instala siguiendo las instrucciones normal de wsl nixos.
+
+- Clona este repo
+
 - Debes agregar el hardware-configuration que está en ( /etc/nixos/hardware-configuration.nix ) en ./system-modules/
 
 - El otro documento que está al lado de hardware-configuration da igual.
