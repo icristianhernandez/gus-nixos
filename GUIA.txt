@@ -7,6 +7,7 @@
 - El otro documento que está al lado de hardware-configuration da igual.
 
 - Debes cambiar los datos en ./lib/const.nix a los tuyos
+^^^ Preferible pon en 'user' el mismo nombre que pusiste para el user durante la instalación, da menos detalles.
 
 - Se rebuildea con el comando:
 sudo nixos-rebuild switch --flake .#gus
