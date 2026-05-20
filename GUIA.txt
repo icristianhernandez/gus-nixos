@@ -16,3 +16,4 @@ sudo nixos-rebuild switch --flake .#gus
 (estando en esta carpeta)
 nix flake update
 
+- En scripts puse un bash para automatizar crear la ssh key y subirla a github
