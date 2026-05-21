@@ -22,7 +22,6 @@
       inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
 
-
   };
 
   outputs =
@@ -93,11 +92,10 @@
                 };
                 users = {
                   "${const.user}" = {
-                    imports =
-                      import ./lib/import-modules.nix {
-                        inherit lib;
-                        dir = ./home-modules;
-                      };
+                    imports = import ./lib/import-modules.nix {
+                      inherit lib;
+                      dir = ./home-modules;
+                    };
                   };
                 };
               };
@@ -109,7 +107,5 @@
       };
 
       formatter = eachSystem ({ pkgs, ... }: pkgs.nixfmt);
-
-      apps = import ./apps { inherit nixpkgs systems; };
     };
 }

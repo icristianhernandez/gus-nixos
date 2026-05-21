@@ -1,6 +1,5 @@
 {
   const,
-  hostName,
   ...
 }:
 
@@ -11,7 +10,7 @@
     stateVersion = const.homeState;
 
     sessionVariables = {
-      NIXOS_HOST = hostName;
+      NIXOS_HOST = const.hostName;
     };
   };
 }

@@ -1,7 +1,6 @@
 {
   pkgs,
   const,
-  hostName,
   ...
 }:
 
@@ -35,5 +34,5 @@
   system.stateVersion = const.systemState;
 
   time.timeZone = const.timezone;
-  networking.hostName = hostName;
+  networking.hostName = const.hostName;
 }

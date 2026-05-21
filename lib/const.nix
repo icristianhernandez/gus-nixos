@@ -8,6 +8,7 @@ in
   dotfilesDir = "${homeDir}/dotfiles";
   systemState = "25.11";
   homeState = "25.11";
+  hostName = "wsl";
   timezone = "America/Caracas";
   systemLanguage = "en_US.UTF-8";
   parametersLanguage = "es_ES.UTF-8";

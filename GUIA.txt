@@ -10,7 +10,7 @@
 ^^^ Preferible pon en 'user' el mismo nombre que pusiste para el user durante la instalación, da menos detalles.
 
 - Se rebuildea con el comando:
-sudo nixos-rebuild switch --flake .#gus
+sudo nixos-rebuild switch --flake .#wsl
 
 - Se actualizan las apps con:
 (estando en esta carpeta)
